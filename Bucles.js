@@ -18,9 +18,9 @@ i++;
 
 // Version - 1
 
-var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+let dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
 
-for(var i=0; i<7; i++) {
+for(let i=0; i<7; i++) {
   console.log(dias[i]);
 }
 
@@ -36,8 +36,8 @@ console.log(resultado);
 
 // Bucle For In
 
-var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+let dia = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
 
-for (i in dias) {
-  console.log(dias[1])
+for (i in dia) {
+  console.log(dia[1])
 }
