@@ -1,6 +1,6 @@
 // Calculadora en JavaScript
 
-if (suma){
+if (suma < 0){
     numero1 + numero2
 }
 

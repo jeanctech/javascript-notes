@@ -1,5 +1,18 @@
 // Funciones en JavaScript
 
+function suma(uno, dos){
+	var user_1 = prompt("Primer Numero ");
+	var user_2 = prompt("Segundo Numero ");
+	var user_3 = user_1 + user_2;
+
+	alert("Tu Resultado es " + user_3);
+}
+
+function miFuncion (){
+var numero = 19
+document.write(numero)
+}
+
 // Funcion Simple
 
 function square(number) {
@@ -21,8 +34,7 @@ function myFunc(theObject) {
   var mycar = { make: 'Honda', model: 'Accord', year: 1998 };
   var x, y;
 
-  x = mycar.make; // x obtiene el valor "Honda"
+  x = mycar.make;
 
   myFunc(mycar);
-  y = mycar.make; // y obtiene el valor "Toyota"
-                  // (la propiedad make fue cambiada por la función)
+  y = mycar.make;
