@@ -16,7 +16,7 @@ let let_3 = let_1 + let_2;
 
 console.log(let_3)
 
-//Variables Const
+//Variable Const
 
 const const_1 = 10;
 const const_2 = 20;

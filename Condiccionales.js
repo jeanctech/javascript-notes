@@ -1,4 +1,4 @@
-// Condiccionales
+// Condiccionales en JavaScript
 
 // Condiccionales If
 

@@ -1,4 +1,6 @@
-// Bucles - If 
+// Bucles en JavaScript
+
+// Bucles - If
 
 var edad = prompt("Cual Es tu Edad ");
 

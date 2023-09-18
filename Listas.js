@@ -1,6 +1,6 @@
-//Lista en JavaScript
+//Listas en JavaScript
 
-var a = [1, 2, 3] //Lista de Numeros interger
+var a = [1, 2, 3] //Listas de Numeros interger
 
 console.log(a) //Imprime la Lista
 
