@@ -66,3 +66,13 @@ var ivaIncluido = true;
 
 console.log(clienteRegistrado);
 console.log(ivaIncluido);
+
+// Tipo de Datos - Primitivos
+
+let numero1 = 0;
+let Numero2 = null;
+let numero3 = undefined;
+
+console.log(Numero2)
+
+Symbol() === Symbol();
