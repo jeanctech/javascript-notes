@@ -1,9 +1,9 @@
 # JavaScript - Documentation
 
-[![JavaScript]()](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.88.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-00684A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)](https://www.mongodb.com)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
 ## What is JavaScript?
 
@@ -38,11 +38,11 @@ JavaScript is a high-level programming language widely used for developing inter
 * [Next steps](https://youtu.be/Kp4Mvapo5kc?t=36390)
 
 ### Introduction
----
+
 It is mainly used on the client side, implemented as part of a web browser allowing improvements in the user interface and dynamic web pages3 and server-side JavaScript (SsJs). Its use in applications external to the web, for example in PDF documents, desktop applications (mostly widgets) is also significant As of 2012, all modern browsers fully support EcmaScript 5.1, a version of JavaScript. Older browsers support at least EcmaScript 3. The sixth edition was released in July 2015
 
 ### Important information and frequently asked questions
----
+
 Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And after that I don't rule out adding new lessons in the future, but I think that for the moment it can serve as a basis for anyone who wants to start learning this language.
 
 * As soon as the course continues, I will update the repository and notify the networks.
@@ -65,8 +65,6 @@ Thank you very much for all the support shown!
 * [MongoDB](https://www.mongodb.com/) - The database used by our backend
 
 * [Deta](https://www.deta.sh/) - To deploy our API in the cloud
-
----
 
 #### You can support my work by "☆Star" the repo or nominate me for a "GitHub Star". Thank you!
 
