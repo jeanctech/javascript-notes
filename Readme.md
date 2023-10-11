@@ -10,6 +10,7 @@
 JavaScript is a high-level programming language widely used for developing interactive web applications. It was originally created by Netscape under the name LiveScript and later renamed to JavaScript. Although it shares a similar name with Java, they are two different languages and are not directly related.
 
 ## Index
+
 * [Introduction](https://youtu.be/Kp4Mvapo5kc)
 * [Lesson 1 - Configuration](https://youtu.be/Kp4Mvapo5kc?t=850)
 * [Lesson 2 - Hello World](https://youtu.be/Kp4Mvapo5kc?t=1518)
@@ -37,11 +38,11 @@ JavaScript is a high-level programming language widely used for developing inter
 * [Lesson 24 - Package Handling](https://youtu.be/TbcEqkabAWU?t=24010)
 * [Next steps](https://youtu.be/Kp4Mvapo5kc?t=36390)
 
-### Introduction
+## Introduction
 
 It is mainly used on the client side, implemented as part of a web browser allowing improvements in the user interface and dynamic web pages3 and server-side JavaScript (SsJs). Its use in applications external to the web, for example in PDF documents, desktop applications (mostly widgets) is also significant As of 2012, all modern browsers fully support EcmaScript 5.1, a version of JavaScript. Older browsers support at least EcmaScript 3. The sixth edition was released in July 2015
 
-### Important information and frequently asked questions
+## Important information and frequently asked questions
 
 Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And after that I don't rule out adding new lessons in the future, but I think that for the moment it can serve as a basis for anyone who wants to start learning this language.
 
@@ -60,11 +61,13 @@ Thank you very much for all the support shown!
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [FastAPI](https://fastapi.tiangolo.com/es/) - The framework to create our Backend API
+* [Node.js](https://nodejs.org/en) - The framework to create our Backend Api
 
-* [MongoDB](https://www.mongodb.com/) - The database used by our backend
+* [React.js](https://es.react.dev/) - The framework to create our Frontend
 
-* [Deta](https://www.deta.sh/) - To deploy our API in the cloud
+* [Vue.js](https://vuejs.org/) - The framework to create our Frontend Api
+
+##
 
 #### You can support my work by "☆Star" the repo or nominate me for a "GitHub Star". Thank you!
 
