@@ -1,4 +1,4 @@
-// JavaScript
+//* Script - JavaScript
 
 var user_1 = prompt("Primer Numero ");
 var user_2 = prompt("Segundo Numero ");
