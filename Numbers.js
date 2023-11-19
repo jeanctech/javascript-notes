@@ -1,2 +1,0 @@
-// Numeros en JavaScript
-

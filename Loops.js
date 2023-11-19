@@ -1,94 +1,85 @@
-// Bucles en JavaScript
+//* Loops - JavaScript
 
-// Bucles - If
+/* Loops (or cycles) in JavaScript are structures that allow several blocks of code to be executed
+times. There are several types of loops in JavaScript, and each has its own application. Here are the
+most common loops: */
 
-var edad = prompt("Cual Es tu Edad ");
+//? 1. `for` loop:
 
-if (edad > 18){
-alert("Eres Mayor Ya que Tienes " + edad)}
-else{
-alert("Eres Menor Ya que Tienes " + edad)}
+// The `for` loop is used when you know the exact number of iterations.
 
-var dia = "lunes";
-
-if (dia == "lunes")
-document.write ("<h1>Que tengas un feliz comienzo de semana");
-
-// Bucles - If Anidadas
-
-var numero1 = 23
-var numero2 = 63
-
-if (numero1 == numero2){
-document.write("Los dos números son iguales")}
-else{
-if (numero1 > numero2) {
-document.write("El primer número es mayor que el segundo")}
-else{
-document.write("El primer número es menor que el segundo")}
+for (let i = 0; i < 5; i++) {
+  console.log(i);
 }
 
-//Bucle Switch
+// In this example, the loop will run five times, displaying the numbers 0 to 4.
 
-var dia_de_la_semana
+//? 2. `while` loop:
 
-switch (dia_de_la_semana) {
-case 1:
-document.write("Es Lunes")
-break
-case 2:
-document.write("Es Martes")
-break
-case 3:
-document.write("Es Miércoles")
-break
-case 4:
-document.write("Es Jueves")
-break
-case 5:
-document.write("Es viernes")
-break
-case 6:
-document.write("Es fin de semana")
-break
+/* The `while` loop is used when you do not know how many times the loop will be executed, but the condition
+must be true for it to continue executing. */
+
+let counter = 0;
+
+while (counter < 5) {
+  console.log(counter);
+  counter++;
 }
 
-// Bucle For
+// In this example, the `while` loop will also print the numbers 0 to 4.
 
-var i
-for (i=0;i<=10;i++) {
-document.write("<p>" + i)
-document.write("<br>")
-}
+//? 3. `do...while` loop:
 
-var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+/* Similar to the `while` loop, but ensures that the code block is executed at least once, even
+if the condition is false. */
 
-for(var i=0; i<7; i++) {
-  alert(dias[i]);
-}
-
-for (i=1;i<=6;i++) {
-document.write("<H" + i + ">Encabezado de nivel " + i + "</H" + i + ">")
-}
-
-// Bucle While
-
-var color = ""
-
-while (color != "rojo"){
-color = prompt("dame un color (escribe rojo para salir)","")
-}
-
-// Bucle While do
-
-var color = ""
+let count = 0;
 
 do {
-color = prompt("dame un color (escribe rojo para salir)","")}
-while (color != "rojo")
+  console.log(count);
+  count++;
+} while (count < 5);
 
-var suma = 0
-while (suma < 1000){
-suma += parseInt(Math.random() * 100)
-document.write (suma + "<br>")
+//? 4. `for...in` loop:
+
+/* The `for...in` loop iterates over the enumerable properties of an object. It is especially useful for
+iterate over the properties of an object. */
+
+let person = { name: "John", age: 30, city: "Exampleville" };
+
+for (let property in person) {
+  console.log(property + ": " + person[property]);
 }
+
+//? 5. `for...of` loop:
+
+/* The `for...of` loop was introduced in EcmaScript 6 and is used to iterate over iterable elements
+like arrays, strings, maps, sets, etc. */
+
+let colors = ["red", "green", "blue"];
+
+for (let color of colors) {
+  console.log(color);
+}
+
+//? Interrupt and Continue:
+
+/* You can use the keywords `break` to exit a loop and `continue` to move to the next loop.
+iteration. */
+
+for (let i = 0; i < 5; i++) {
+  if (i === 3) {
+    break; // Exit the loop when i is 3
+  }
+  console.log(i);
+}
+
+for (let i = 0; i < 5; i++) {
+  if (i === 2) {
+    continue; // Skip iteration when i is 2
+  }
+  console.log(i);
+}
+
+/* These are some examples of how you can use loops in JavaScript. Loops are essential for
+repeat tasks and process data in programming. */

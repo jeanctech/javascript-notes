@@ -1,5 +1,5 @@
-//Hola Mundo en JavaScript
+//* Hello World - JavaScript
 
-var text = "Hola Mundo" //variable text con un texto "Hola Mundo"
+var text = "Hello World" // Variable text with a text "Hello World"
 
-console.log(text) //imprime la variable a con el texto "Hola Mundo"
+console.log(text) // Print variable a with the text "Hello World"
