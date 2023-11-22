@@ -7,7 +7,7 @@
 
 ## What is JavaScript?
 
-JavaScript is a high-level programming language widely used to develop applications. interactive websites. It was originally created by Netscape under the name LiveScript and later renamed to JavaScript. Although it shares a similar name with Java, they are two different languages and are not directly related.
+JavaScript is a high-level programming language widely used to develop applications. interactive websites. It was originally created by Netscape under the name LiveScript and later renamed to JavaScript. Although it shares a similar name with Java, they are two different languages and are not directly related. JavaScript is a versatile and widely used programming language that provides dynamism and functionality to web pages.
 
 ## Index
 
