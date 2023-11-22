@@ -47,15 +47,13 @@ JavaScript is a high-level programming language widely used to develop applicati
 
 ## Introduction
 
-It is mainly used client-side, implemented as part of a web browser allowing improvements to the user interface and dynamic web pages3 and server-side JavaScript (SsJs). His use in non-web applications, for example in Pdf documents, desktop applications (mainly widgets) is also important. As of 2012, all modern browsers are fully compatible with EcmaScript 5.1, a version of JavaScript. Older browsers support at least EcmaScript 3. The 6th edition was released in July 2015.
+It is mainly used client-side, implemented as part of a web browser allowing improvements to the user interface and dynamic web pages3 and server-side JavaScript - SsJs. His use in non-web applications, for example in Pdf documents, desktop applications mainly widgets is also important. As of 2012, all modern browsers are fully compatible with EcmaScript 5.1, a version of JavaScript. Older browsers support at least EcmaScript 3. The 6th edition was released in July 2015.
 
 ## Important information and frequently asked questions
 
-Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was
-the initial objective of the project. And then I don't rule out adding new lessons in the future, but I think
-which for the moment can serve as a basis for anyone who wants to start learning this language.
+Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial goal of the project. And then I don't rule out adding new lessons in the future, but I think that for now it can serve as a basis for anyone who wants to start learning this language.
 
-*As soon as the course continues I will update the repository and notify the networks.
+* As soon as the course continues I will update the repository and notify the networks.
 Thank you very much for all the support shown!
 
 ## Links of interest
