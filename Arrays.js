@@ -1,76 +1,76 @@
 //* Arrays - JavaScript
 
-/* En JavaScript, los arrays son estructuras de datos que te permiten almacenar y acceder a varios
-elementos. Pueden contener elementos de diferentes tipos de datos y se definen mediante corchetes `[]`.
-Aquí hay algunas operaciones comunes que puedes realizar con arrays: */
+/* In JavaScript, arrays are data structures that allow you to store and access multiple
+elements. They can contain elements of different data types and are defined using `[]` brackets.
+Here are some common operations you can perform on arrays: */
 
-//? Declaración de un Array:
+//? Declaring an Array:
 
-let numeros = [1, 2, 3, 4, 5];
-let colores = ["rojo", "verde", "azul"];
-let mezclado = [1, "dos", true, { nombre: "Juan" }];
+let numbers = [1, 2, 3, 4, 5];
+let colors = ["red", "green", "blue"];
+let mixed = [1, "two", true, { name: "John" }];
 
-//? Acceso a Elementos del Array:
+//? Accessing Array Elements:
 
-let primerNumero = numeros[0]; // Accede al primer elemento (índice 0)
-let segundoColor = colores[1]; // Accede al segundo elemento (índice 1)
+let firstNumber = numbers[0]; // Access the first element (index 0)
+let secondColor = colors[1]; // Access the second element (index 1)
 
-//? Modificación de Elementos del Array:
+//? Modifying Array Elements:
 
-numeros[0] = 10; // Modifica el primer elemento
-colores[1] = "amarillo"; // Modifica el segundo elemento
+numbers[0] = 10; // Modify the first element
+colors[1] = "yellow"; // Modify the second element
 
-//? Longitud del Array:
+//? Array Length:
 
-let longitud = numeros.length; // Devuelve la longitud del array (en este caso, 5)
+let length = numbers.length; // Returns the length of the array (in this case, 5)
 
-//? Añadir y Eliminar Elementos:
+//? Add and Remove Elements:
 
-// Añadir al final
-numeros.push(6);
+// Add to the end
+numbers.push(6);
 
-// Eliminar el último elemento
-numeros.pop();
+// Remove the last element
+numbers.pop();
 
-// Añadir al principio
-numeros.unshift(0);
+// Add to the beginning
+numbers.unshift(0);
 
-// Eliminar el primer elemento
-numeros.shift();
+// Remove the first element
+numbers.shift();
 
-//? Buscar y Encontrar Elementos:
+//? Search and Find Elements:
 
-let indice = colores.indexOf("verde"); // Devuelve el índice del elemento "verde" o -1 si no lo encuentra
-let existeRojo = colores.includes("rojo"); // Devuelve true si el array contiene "rojo", de lo contrario false
+let index = colors.indexOf("green"); // Returns the index of the "green" element or -1 if not found
+let existsRed = colors.includes("red"); // Returns true if the array contains "red", otherwise false
 
-//? Iterar sobre un Array:
+//? Iterate over an Array:
 
 // For loop
 for (let i = 0; i < numeros.length; i++) {
-  console.log(numeros[i]);
+console.log(numeros[i]);
 }
 
 // forEach
 numeros.forEach(function(numero) {
-  console.log(numero);
+console.log(numero);
 });
 
-// Map (crea un nuevo array basado en el resultado de la función)
-let cuadrados = numeros.map(function(numero) {
-  return numero * numero;
+// Map (creates a new array based on the result of the function)
+let squares = numeros.map(function(numero) {
+return numero * numero;
 });
 
-//? Arrays Multidimensionales:
+//? Multidimensional Arrays:
 
-// Los arrays en JavaScript también pueden contener otros arrays, formando así arrays multidimensionales.
+// Arrays in JavaScript can also contain other arrays, thus forming multidimensional arrays.
 
-let matriz = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9]
+let matrix = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
 ];
 
-console.log(matriz[1][2]); // Accede al elemento en la segunda fila y tercera columna (6)
+console.log(matrix[1][2]); // Access the element in the second row and third column (6)
 
-/* Estas son solo algunas de las operaciones que puedes realizar con arrays en JavaScript. Los arrays son
-una parte fundamental de la programación y se utilizan ampliamente para almacenar y manipular datos. */
+/* These are just a few of the operations you can perform with arrays in JavaScript. Arrays are
+a fundamental part of programming and are widely used to store and manipulate data. */
